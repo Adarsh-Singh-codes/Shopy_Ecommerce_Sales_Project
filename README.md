@@ -5,6 +5,7 @@
 A complete **end-to-end data analytics project** for SHOPY — covering **data ingestion, Python ETL, BigQuery SQL analysis, and Power BI dashboarding** to deliver business insights, KPIs, and performance trends.
 
 ---
+![Dashboard Page 1](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/d-1.jpg)
 
 ## 🚀 Project Overview
 
@@ -81,6 +82,7 @@ Collected multiple datasets:
 
 Performed schema checks, missing value analysis, and duplicate handling.
 
+![Python ETL](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/py.png)
 ---
 
 ### 2️⃣ Python ETL (Google Colab)
@@ -97,7 +99,8 @@ Performed:
 Output:  
 `data/cleaned/Shopy_Master_Cleaned_Final.csv`
 
----
+![SQL BigQuery](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/sql.png)
+
 
 ### 3️⃣ BigQuery SQL Analysis
 
@@ -112,7 +115,7 @@ Executed:
 SQL File:  
 `Sql & Python/shopy_sql.sql`
 
----
+![Dashboard Page 2](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/d-2.jpg)
 
 ### 4️⃣ Power BI Dashboard
 
@@ -168,7 +171,8 @@ Pages include:
 - >7 days delivery → rating **3.72**  
 - Logistics delays → **41% of negative reviews**  
 
----
+![Dashboard Page 3](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/d-3.jpg)
+
 
 ## 🏁 How to Use This Project
 
