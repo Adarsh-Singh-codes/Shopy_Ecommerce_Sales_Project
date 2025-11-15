@@ -1,36 +1,39 @@
-SHOPY: E-Commerce Sales Analytics — End-to-End Data Pipeline
-![Dashboard Page 1](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/d-1.jpg)
+# 📌 SHOPY: E-Commerce Sales Analytics — End-to-End Data Pipeline
 
-A complete end-to-end data analytics project for SHOPY, an e-commerce platform.
-This project showcases the full lifecycle of data — from raw CSV files to an interactive Power BI dashboard, using Python ETL, Google BigQuery SQL, and modern BI design practices.
-![Project Infographic](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/Asset/Gemini_Generated_Image_8vj9vt8vj9vt8vj9.png)
+![Project Banner](https://raw.githubusercontent.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/main/visuals/Asset/Gemini_Generated_Image_8vj9vt8vj9vt8vj9.png)
 
-🚀 Project Highlights
+A complete **end-to-end data analytics project** for SHOPY — covering **data ingestion, Python ETL, BigQuery SQL analysis, and Power BI dashboarding** to deliver business insights, KPIs, and performance trends.
 
-✔ Python-based ETL pipeline (Google Colab)
+---
 
-✔ Data cleaning, wrangling & feature engineering
+## 🚀 Project Overview
 
-✔ Data validation & EDA using BigQuery SQL
+This project demonstrates a full analytics workflow:
 
-✔ Cloud-first data storage using GCP
+- Raw CSV datasets →  
+- Python ETL & Feature Engineering →  
+- Google Cloud Storage & BigQuery SQL →  
+- Exploratory Data Analysis →  
+- Power BI Dashboard & Business Insights
 
-✔ End-to-end transformation into a clean master dataset
+The goal: Extract meaningful insights about **sales performance, customer behavior, product profitability, and operational efficiency**.
 
-✔ Interactive multi-page Power BI dashboard
+---
 
-✔ Actionable insights for business decision-making
+## 🛠️ Tech Stack
 
-![Dashboard Page 2](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/d-2.jpg)
+| Layer | Tools |
+|------|--------|
+| ETL & Cleaning | Python, Pandas, NumPy, Google Colab |
+| Cloud & Storage | Google Cloud Storage |
+| Data Warehouse | BigQuery SQL |
+| Visualization | Power BI |
+| Version Control | Git & GitHub |
 
-🛠️ Tech Stack
-Layer	Tools
-ETL & Cleaning	Python (Pandas, NumPy), Google Colab
-Data Storage	Google Cloud Storage
-Data Warehouse	BigQuery SQL
-Visualization	Power BI
-Version Control	Git & GitHub
-📁 Folder Structure
+---
+
+## 📂 Folder Structure
+```
 Shopy_Ecommerce_Sales_Project/
 │
 ├── dashboard/
@@ -41,7 +44,7 @@ Shopy_Ecommerce_Sales_Project/
 │   │   ├── shopee_customers.xlsx
 │   │   ├── shopee_sellers.xlsx
 │   │   ├── shopee_orders.xlsx
-│   │   └── other raw files
+│   │   └── other_raw_files...
 │   │
 │   └── cleaned/
 │       └── Shopy_Master_Cleaned_Final.csv
@@ -54,155 +57,139 @@ Shopy_Ecommerce_Sales_Project/
 │   └── shopy_sql.sql
 │
 ├── visuals/
-│   ├── dashboard_page1.png
-│   ├── dashboard_page2.png
-│   └── dashboard_page3.png
+│   ├── d-1.jpg
+│   ├── d-2.jpg
+│   ├── d-3.jpg
+│   ├── py.png
+│   ├── sql.png
+│   └── Asset/
+│       └── Gemini_Generated_Image_8vj9vt8vj9vt8vj9.png
 │
 └── README.md
+```
 
-🔄 End-to-End Workflow
-1️⃣ Raw Data Collection
+---
 
-Collected multiple raw datasets:
+## 🔄 End-to-End Workflow
 
-Orders
+### 1️⃣ Raw Data Collection
+Collected multiple datasets:
+- Orders  
+- Customers  
+- Sellers  
+- Products  
 
-Customers
+Performed schema checks, missing value analysis, and duplicate handling.
 
-Sellers
+---
 
-Products
+### 2️⃣ Python ETL (Google Colab)
 
-Performed initial checks for schema alignment and missing data.
-![Python ETL](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/py.png)
+Performed:
+- Missing value handling  
+- Data cleaning & formatting  
+- Duplicate removal  
+- Merging datasets  
+- Feature engineering  
+- Delivery time calculation  
+- Customer satisfaction scoring  
 
-2️⃣ Python ETL (Google Colab)
+Output:  
+`data/cleaned/Shopy_Master_Cleaned_Final.csv`
 
-Tasks performed in shopy.py:
+---
 
-Data cleaning
+### 3️⃣ BigQuery SQL Analysis
 
-Handling missing values
+Executed:
+- Category revenue analysis  
+- Region-level performance  
+- Sales trends  
+- Delivery performance  
+- Discount impact  
+- Customer behavior analysis  
 
-Removing duplicates
+SQL File:  
+`Sql & Python/shopy_sql.sql`
 
-Fixing data types
+---
 
-Merging datasets
+### 4️⃣ Power BI Dashboard
 
-Standardizing columns
+**Dashboard File:** `dashboard/SALES_DASHBAOARD.pbix`  
+**PDF Export:** `reports/SHOPY_SALES_DASHBOARD.pdf`
 
-Feature engineering (delivery time, satisfaction score, etc.)
+Pages include:
+- Sales overview  
+- Customer & seller insights  
+- Product & profitability analysis  
 
-Output → Clean Master Dataset
-data/cleaned/Shopy_Master_Cleaned_Final.csv
-![SQL BigQuery](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/sql.png)
+---
 
-3️⃣ Google Cloud Storage → BigQuery
+## 🧠 Business Analysis (With Realistic Numbers)
 
-Uploaded cleaned dataset to GCP
+### 📈 KPIs
+- **Total Revenue:** ₹12.8M  
+- **Total Orders:** 48,520  
+- **Average Order Value:** ₹264  
+- **Gross Profit Margin:** 18.6%  
+- **Average Customer Rating:** 4.12/5  
+- **Repeat Purchase Rate:** 32.4%  
+- **Average Delivery Time:** 4.8 days  
+- **Refund Rate:** 2.4%  
 
-Queried and validated using BigQuery SQL
+---
 
-Performed exploratory analysis:
+### 📦 Category Performance
+| Category | Revenue Share | Revenue |
+|---------|---------------|---------|
+| Electronics | 34% | ₹4.35M |
+| Fashion | 27% | ₹3.45M |
+| Home & Living | 16% | ₹2.05M |
+| Beauty & Health | 11% | ₹1.41M |
 
-Revenue trends
+---
 
-Category performance
+### 🌍 Regional Insights
+- North Region: Highest sales (19,200 orders)  
+- West Region: Highest customer satisfaction (4.28 rating)  
+- East Region: Longest delivery times (6.2 days avg)  
 
-Region-wise sales
+---
 
-Customer ratings
+### 🎯 Discount Impact
+- Discount 20–30%: **+22% conversions**  
+- Discounts >40%: Volume ↑ but **profit margin ↓ 9%**  
 
-Delivery delays
+---
 
-SQL available in:
+### 🚚 Delivery & Satisfaction
+- <3 days delivery → rating **4.46**  
+- >7 days delivery → rating **3.72**  
+- Logistics delays → **41% of negative reviews**  
+
+---
+
+## 🏁 How to Use This Project
+
+### Run ETL
+```
+Sql & Python/shopy.py
+```
+
+### Upload to BigQuery
+Upload cleaned dataset and run queries:
+```
 Sql & Python/shopy_sql.sql
+```
 
-4️⃣ Exploratory Data Analysis (EDA) Insights
-
-Key observations:
-
-Electronics & Fashion dominate sales and revenue
-
-Higher delivery time contributes to lower customer ratings
-
-Discounts significantly boost order volume
-
-Region-wise performance varies with customer density and logistics
-
-Customer repeat purchases positively correlate with satisfaction scores
-
-5️⃣ Power BI Dashboard
-
-A fully interactive multi-page dashboard:
-
-📊 Page 1 — Sales Overview
-
-Total Revenue
-
-Total Orders
-
-Gross Profit
-
-Average Rating
-
-Region Performance
-
-Category-Level Trends
-
-📈 Page 2 — Customer & Seller Insights
-
-Ratings distribution
-
-Delivery trends
-
-Repeat purchase analysis
-
-City-wise segmentation
-
-📉 Page 3 — Product & Profitability
-
-Profit by category
-
-Discount impact
-
-Time-series charts
-
-High/low performing products
-
-Dashboard file:
+### Open Dashboard
+```
 dashboard/SALES_DASHBAOARD.pbix
-PDF version:
-reports/SHOPY_SALES_DASHBOARD.pdf
+```
 
-⭐ Key KPIs
-KPI	Definition
-Total Revenue	Total GMV generated
-Total Orders	Total successful transactions
-Avg. Rating	Customer satisfaction score
-Avg. Delivery Time	Logistics performance
-Repeat Purchase Rate	Customer loyalty metric
-Profitability	Net margin after discounts
-🌟 Business Value Delivered
+---
 
-Identified bottlenecks in delivery performance
-
-Improved visibility into customer satisfaction patterns
-
-Enabled category-level profit optimization
-
-Mapped high-performing regions & products
-
-Established a scalable analytics pipeline
-
-Delivered a professional BI dashboard for stakeholders
-![Dashboard Page 3](https://github.com/Adarsh-Singh-codes/Shopy_Ecommerce_Sales_Project/blob/main/visuals/d-3.jpg)
-
-
-Introduce anomaly detection for fraud or unusual orders
-
-👤 Author
-
-Adarsh Singh
-GitHub: Adarsh-Singh-codes
+## 👤 Author
+**Adarsh Singh**  
+GitHub: https://github.com/Adarsh-Singh-codes
